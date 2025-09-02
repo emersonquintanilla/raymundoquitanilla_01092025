@@ -82,7 +82,7 @@ public class Main {
         }
         
         //calculo de los valores
-        promedio = suma/total_elementos;
+        promedio = (double) suma/total_elementos;
         System.out.println(suma+"es la sumatoria total de elementos, la cantidad de elementos digitados es de : "+total_elementos);
         System.out.println("El promedio de edad es: "+promedio);
         
